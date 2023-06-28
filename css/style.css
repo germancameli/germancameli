@@ -16,10 +16,16 @@ h1{
     font-size: 3em;
 }
 body{
-    background-image: url(../img/fondo-de-pantalla2.jpg);
+
     background-attachment: fixed;
     width: 100%;
     
+}
+.container-fluid{
+    background-image: url(../img/fondo-de-pantalla2.jpg);
+}
+footer{
+    background-color: black;
 }
 p{
     color:rgb(255, 255, 255);
@@ -142,5 +148,10 @@ footer svg{
 
 
 
+img {
+    border-radius: 10px;
+}
 
-
+h1{
+    background-color: red;
+}
